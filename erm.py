@@ -6,7 +6,7 @@ import threading
 import mss
 from PIL import Image
 
-class OverlayApp:
+class overApp:
     def __init__(self, root):
         self.root = root
         self.root.overrideredirect(True) 
